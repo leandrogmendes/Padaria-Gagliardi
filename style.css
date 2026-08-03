@@ -4,3 +4,7 @@
     color: burlywood;
     background-color: brown;
 }
+
+td:hover {
+    background: #eb7434;
+}
