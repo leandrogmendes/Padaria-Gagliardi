@@ -16,3 +16,7 @@ th:hover {
 .intro {
     justify-content: left;
 }
+img {
+    width: auto 150px;
+    height: auto 225px;
+}
