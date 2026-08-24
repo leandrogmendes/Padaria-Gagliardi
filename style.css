@@ -5,6 +5,10 @@
     background-color: brown;
 }
 
+header {
+    background: burlywood;
+}
+
 td:hover {
     background: #eb7434;
 }
@@ -15,8 +19,4 @@ th:hover {
 
 .intro {
     justify-content: left;
-}
-
-body {
-    background-image: ;
 }
