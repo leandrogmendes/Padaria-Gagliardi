@@ -5,6 +5,10 @@
     background-color: brown;
 }
 
+nav a {
+    background: chocolate;
+}
+
 td:hover {
     background: #eb7434;
 }
@@ -14,5 +18,7 @@ th:hover {
 }
 
 .intro {
-    justify-content: left;
+    text-align: left;
+    justify-content: left !important;
+    border: 2px solid brown;
 }
