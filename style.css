@@ -13,13 +13,13 @@ body {
     line-height: 1.6;
     margin: 0;
     color: #13d83d;             /* marrom escuro (texto) */
-    background-color: #FFF8F0;  /* creme (fundo) */
+    background-color: #dd7907;  /* creme (fundo) */
 }
 
 /* ===== Cabeçalho ===== */
 .cabecalho {
     background-color: #A0521A;  /* âmbar escuro — texto branco tem contraste AA */
-    color: #FFFFFF;
+    color: #d41818;
     text-align: center;
     padding: 24px 16px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .menu a {
-    color: #FFFFFF;
+    color: #93eefa;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
@@ -55,7 +55,7 @@ blockquote {
     border-left: 4px solid #A0521A;
     margin: 0 0 16px;
     padding: 8px 16px;
-    background-color: #FDEEDC;
+    background-color: #d8350c;
 }
 
 /* ===== Cards de destaque (Flexbox) ===== */
@@ -67,10 +67,10 @@ blockquote {
 
 .card {
     flex: 1 1 250px;       /* cresce, encolhe, largura base 250px */
-    border: 1px solid #E0C9A6;
+    border: 1px solid #0fe90f;
     border-radius: 8px;
     padding: 12px;
-    background-color: #FFFFFF;
+    background-color: #f53d0f;
 }
 
 .card img {
@@ -99,13 +99,13 @@ blockquote {
 
 .tabela-cardapio th,
 .tabela-cardapio td {
-    border: 1px solid #E0C9A6;
+    border: 1px solid #270e06;
     padding: 10px;
     text-align: left;
 }
 
 .tabela-cardapio thead {
-    background-color: #A0521A;
+    background-color: #18120d;
     color: #FFFFFF;
 }
 
