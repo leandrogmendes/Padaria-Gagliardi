@@ -1,9 +1,9 @@
 :root {
     --marrom-escuro: #3B2A1E;
-    --branco-claro: #c9c9c9;
-    --branco-escuro: #999999;
-    --laranja-fundo: #f09b3b;
-    --laranja-fundo-apagado: #b89c23aa;
+    --branco: #ffffff;
+    --amarelo: #f7f44b;
+    --laranja-fundo: #b16f25;
+    --verde-fundo: #aae737aa;
     --verde-folha: #65e25aaa;
     --preto-letra: #2c2c2c;
 }
@@ -62,7 +62,7 @@ main {
 }
 
 blockquote {
-    border-left: 4px solid var(--marrom-escuro);
+    border-left: 6px solid var(--marrom-escuro);
     margin: 0 0 16px;
     padding: 8px 16px;
     background-color: var(--laranja-fundo-apagado);
@@ -77,7 +77,7 @@ blockquote {
 
 .card {
     flex: 1 1 250px;       /* cresce, encolhe, largura base 250px */
-    border: 1px solid var(--marrom-escuro);
+    border: 3px solid var(--marrom-escuro);
     border-radius: 8px;
     padding: 12px;
     background-color: var(--laranja-fundo-apagado);
