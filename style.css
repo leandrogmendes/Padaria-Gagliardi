@@ -1,3 +1,13 @@
+:root {
+    --marrom-escuro: #3B2A1E;
+    --branco-claro: #c9c9c9;
+    --branco-escuro: #999999;
+    --laranja-fundo: #f09b3b;
+    --laranja-fundo-apagado: #b89c23aa;
+    --verde-folha: #65e25aaa;
+    --preto-letra: #2c2c2c;
+}
+
 /* =========================================================
    PADARIA PÃO & CIA — CSS do Encontro 1
    Paleta com contraste aprovado no padrão WCAG AA
@@ -12,14 +22,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
-    color: #999999;             /* marrom escuro (texto) */
-    background-color: #f09b3b;  /* creme (fundo) */
+    color: var(--branco-escuro);             /* marrom escuro (texto) */
+    background-color: var(--laranja-fundo);  /* creme (fundo) */
 }
 
 /* ===== Cabeçalho ===== */
 .cabecalho {
-    background-color: #472207;  /* âmbar escuro — texto branco tem contraste AA */
-    color: #c9c9c9;
+    background-color: var(--marrom-escuro);  /* âmbar escuro — texto branco tem contraste AA */
+    color: var(--branco-claro);
     text-align: center;
     padding: 24px 16px;
 }
@@ -34,7 +44,7 @@ body {
 }
 
 .menu a {
-    color: #9ffa93;
+    color: var(--verde-folha);
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
@@ -52,10 +62,10 @@ main {
 }
 
 blockquote {
-    border-left: 4px solid #472207;
+    border-left: 4px solid var(--marrom-escuro);
     margin: 0 0 16px;
     padding: 8px 16px;
-    background-color: #8ec3e5;
+    background-color: var(--laranja-fundo-apagado);
 }
 
 /* ===== Cards de destaque (Flexbox) ===== */
@@ -67,10 +77,10 @@ blockquote {
 
 .card {
     flex: 1 1 250px;       /* cresce, encolhe, largura base 250px */
-    border: 1px solid #472207;
+    border: 1px solid var(--marrom-escuro);
     border-radius: 8px;
     padding: 12px;
-    background-color: #8ec3e5;
+    background-color: var(--laranja-fundo-apagado);
 }
 
 .card img {
@@ -99,20 +109,20 @@ blockquote {
 
 .tabela-cardapio th,
 .tabela-cardapio td {
-    border: 1px solid #270e06;
+    border: 1px solid var(--marrom-escuro);
     padding: 10px;
     text-align: left;
 }
 
 .tabela-cardapio thead {
-    background-color: #18120d;
-    color: #FFFFFF;
+    background-color: var(--verde-folha);
+    color: var(--preto-letra);
 }
 
 /* ===== Rodapé ===== */
 .rodape {
-    background-color: #3B2A1E;
-    color: #FFFFFF;
+    background-color: var(--marrom-escuro);
+    color: var(--branco-claro);
     text-align: center;
     padding: 16px;
     margin-top: 24px;
