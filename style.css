@@ -35,10 +35,6 @@ body {
     padding: 24px 16px;
 }
 
-header h1, header p {
-color: var(--cinza);
-}
-
 .cabecalho h1 {
     margin: 0;
 }
@@ -71,6 +67,10 @@ blockquote {
     margin: 0 0 16px;
     padding: 8px 16px;
     background-color: var(--laranja-fundo-apagado);
+}
+
+.intro {
+    color: var(--cinza);
 }
 
 /* ===== Cards de destaque (Flexbox) ===== */
